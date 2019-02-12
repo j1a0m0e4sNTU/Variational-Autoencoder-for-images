@@ -90,7 +90,7 @@ class Manaeger():
         for _, imgs in enumerate(self.valid_loader):
             imgs = imgs.to(self.device)
             out = self.model(imgs)
-            loss = self.metric(out. imgs)
+            loss = self.metric(out, imgs)
             loss_total += loss
 
         info = get_info('Validation error for', epoch, 'epoch:', loss_total)
