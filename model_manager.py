@@ -110,6 +110,7 @@ class Manaeger():
             imgs = imgs.to(self.device)
             out = self.model(imgs)
             self.save_predictoin_for_batch(out, i)
+            if i == 0: break
 
     def save_predictoin_for_batch(self, batch, num):
         for i,tensor in enumerate(batch):
