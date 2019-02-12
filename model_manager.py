@@ -93,7 +93,7 @@ class Manaeger():
             loss = self.metric(out, imgs)
             loss_total += loss
 
-        info = get_info('Validation error for', epoch, 'epoch:', loss_total)
+        info = get_string('Validation error for', epoch, 'epoch:', loss_total)
         self.record(info)
 
         if loss_total < self.best['error']:
