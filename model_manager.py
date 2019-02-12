@@ -87,13 +87,14 @@ class Manaeger():
         self.model.eval()
         self.record('\n=====================\n')
         loss_total = 0
-        for _, imgs in enumerate(self.valid_loader):
+        for i, imgs in enumerate(self.valid_loader):
             imgs = imgs.to(self.device)
             out = self.model(imgs)
             loss = self.metric(out, imgs)
             loss_total += loss
-
-        info = get_string('Validation error for', epoch, 'epoch:', loss_total.item())
+            
+        loss = loss_total / ((i+1) * 64 * 64)
+        info = get_string('Validation error for', epoch, 'epoch:', loss.item())
         self.record(info)
 
         if loss_total.item() < self.best['error']:
