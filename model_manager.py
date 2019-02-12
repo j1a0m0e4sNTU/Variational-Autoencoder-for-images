@@ -36,7 +36,7 @@ class Manaeger():
         self.optimizer = optim.Adam(self.model.parameters(), lr= self.lr)
         self.epoch_num = args.epoch_num
         self.batch_size = args.batch_size
-        self.save_name = args.save
+        self.save_name = '../weights/' + args.save
         self.log_file = open('logs/' + args.log, 'w')
         self.check_batch_num = args.check_batch_num
         self.pred_dir = args.predict_dir
@@ -77,7 +77,7 @@ class Manaeger():
                 self.optimizer.step()
 
                 if (batch_id % self.check_batch_num == 0):
-                    result = get_string('Epoch',epoch, '| batch', batch_id, '| Training loss :', loss.item(),'\n')
+                    result = get_string('Epoch',epoch, '| batch', batch_id, '| Training loss :', loss.item()/(64*64),'\n')
                     self.record(result)
 
             self.validate(epoch)
