@@ -92,14 +92,14 @@ class Manaeger():
             out = self.model(imgs)
             loss = self.metric(out, imgs)
             loss_total += loss
-            
+
         loss = loss_total / ((i+1) * 64 * 64)
         info = get_string('Validation error for', epoch, 'epoch:', loss.item())
         self.record(info)
 
-        if loss_total.item() < self.best['error']:
+        if loss.item() < self.best['error']:
             self.best['epoch'] = epoch
-            self.best['error'] = loss_total.item()
+            self.best['error'] = loss.item()
             torch.save(self.model.state_dict(), self.save_name)
             self.record('\n*** Save BEST model ***\n')
 
