@@ -5,10 +5,10 @@ from torch.utils.data import Dataset, DataLoader
 from model_manager import Manaeger
 import sys
 sys.path.append('models')
-import dataset
+from dataset import Dataset_mine
 
 parser = argparse.ArgumentParser()
-parser.add_argument('mode', help='Train/Validate/Predict', choices=['train', 'validate', 'predict'])
+parser.add_argument('mode', help='Train/Predict', choices=['train', 'predict'])
 parser.add_argument('model', help='Model to be used')
 parser.add_argument('-lr', help= 'Learning rate',type=float, default= 1e-3)
 parser.add_argument('-batch_size', type= int, default= 4)
@@ -22,8 +22,8 @@ parser.add_argument('-predict_dir', help= 'Directory which stores predicted imag
 args = parser.parse_args()
 
 # Prepare datasets, data loader
-dataset_trian = None
-dataset_valid = None
+dataset_trian = Dataset_mine('../face_data', train= True)
+dataset_valid = Dataset_mine('../face_data', train= False)
 trian_loader = DataLoader(dataset_trian, batch_size= args.batch_size, shuffle= True)
 valid_loader = DataLoader(dataset_valid, batch_size= args.batch_size, shuffle= False)
 
@@ -39,8 +39,6 @@ def main():
     manager.load_data(trian_loader, valid_loader)
     if args.mode == 'train':
         manager.train()
-    elif args.mode == 'validate':
-        manager.validate(0)
     elif args.mode == 'predict':
         manager.predict()
 

@@ -14,6 +14,13 @@ def get_string(*args):
         string = string + ' ' + str(s)
     return string
 
+def get_prediction_name(num):
+    num = str(num)
+    prefix = '0' * (5 - len(num))
+    suffix = '.png'
+    name = prefix + num + suffix
+    return name
+
 class Manaeger():
     def __init__(self, model, args):
         
@@ -25,15 +32,15 @@ class Manaeger():
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.model = model.to(self.device)
         self.lr = args.lr
-        self.metric = nn.CrossEntropyLoss()
+        self.metric = nn.MSELoss()
         self.optimizer = optim.Adam(self.model.parameters(), lr= self.lr)
         self.epoch_num = args.epoch_num
         self.batch_size = args.batch_size
         self.save_name = args.save
-        self.log_file = open(args.log, 'w')
+        self.log_file = open('logs/' + args.log, 'w')
         self.check_batch_num = args.check_batch_num
         self.pred_dir = args.predict_dir
-        self.best = {epoch:0, validation_error: sys.maxsize}
+        self.best = {'epoch':0, 'error': sys.maxsize}
     
     def load_data(self, train_loader, valid_loader):
         self.train_loader = train_loader
@@ -41,7 +48,7 @@ class Manaeger():
 
     def record(self, message):
         self.log_file.write(message)
-        print(message)
+        print(message, end='')
 
     def get_info(self):
         info = get_string('\nModel:', self.model.name(), '\n')
@@ -59,11 +66,12 @@ class Manaeger():
         
         for epoch in range(self.epoch_num):
             self.model.train()
-            for batch_id, (imgs, labels) in enumerate(self.train_loader):
-                imgs, labels = imgs.to(self.device), labels.to(self.device)
+            
+            for batch_id, imgs in enumerate(self.train_loader):
+                imgs = imgs.to(self.device)
     
                 out = self.model(imgs)
-                loss = self.metric(out, labels)
+                loss = self.metric(out, imgs)
                 self.optimizer.zero_grad()
                 loss.backward()
                 self.optimizer.step()
@@ -77,7 +85,34 @@ class Manaeger():
 
     def validate(self, epoch):
         self.model.eval()
-        pass
+
+        loss_total = 0
+        for _, imgs in enumerate(self.valid_loader):
+            imgs = imgs.to(self.device)
+            out = self.model(imgs)
+            loss = self.metric(out. imgs)
+            loss_total += loss
+
+        info = get_info('Validation error for', epoch, 'epoch:', loss_total)
+        self.record(info)
+
+        if loss_total < self.best['error']:
+            self.best['epoch'] = epoch
+            self.best['error'] = loss_total
+            torch.save(self.model.state_dict(), self.save_name)
+            self.record('\n*** Save BEST model ***\n')
+
+        info = get_string('Best model is at epoch',self.best['epoch'], 'with error:', self.best['error'])
+        self.record(info)            
 
     def predict(self):
-        pass
+        for i, imgs in enumerate(self.valid_loader):
+            imgs = imgs.to(self.device)
+            out = self.model(imgs)
+            self.save_predictoin_for_batch(out, i)
+
+    def save_predictoin_for_batch(self, batch, num):
+        for i,tensor in enumerate(batch):
+            img = image_tensor_to_numpy(tensor)
+            name = self.pred_dir + get_prediction_name(num + i)
+            cv.imwrite(name, img)
