@@ -85,7 +85,7 @@ class Manaeger():
 
     def validate(self, epoch):
         self.model.eval()
-
+        self.record('\n=====================\n')
         loss_total = 0
         for _, imgs in enumerate(self.valid_loader):
             imgs = imgs.to(self.device)
@@ -93,17 +93,18 @@ class Manaeger():
             loss = self.metric(out, imgs)
             loss_total += loss
 
-        info = get_string('Validation error for', epoch, 'epoch:', loss_total)
+        info = get_string('Validation error for', epoch, 'epoch:', loss_total.item())
         self.record(info)
 
-        if loss_total < self.best['error']:
+        if loss_total.item() < self.best['error']:
             self.best['epoch'] = epoch
-            self.best['error'] = loss_total
+            self.best['error'] = loss_total.item()
             torch.save(self.model.state_dict(), self.save_name)
             self.record('\n*** Save BEST model ***\n')
 
         info = get_string('Best model is at epoch',self.best['epoch'], 'with error:', self.best['error'])
-        self.record(info)            
+        self.record(info) 
+        self.record('\n=====================\n')           
 
     def predict(self):
         for i, imgs in enumerate(self.valid_loader):
