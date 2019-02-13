@@ -35,13 +35,13 @@ class Model(nn.Module):
         x = self.relu(self.conv4(down3))
         down4 = self.pool4(x)
 
-        out = self.deconv1(down4)
+        out = self.relu(self.deconv1(down4))
         out += down3
-        out = self.deconv2(out)
+        out = self.relu(self.deconv2(out))
         out += down2
-        out = self.deconv3(out)
+        out = self.relu(self.deconv3(out))
         out += down1
-        out = self.deconv4(out)
+        out = self.relu(self.deconv4(out))
 
         return out
         
