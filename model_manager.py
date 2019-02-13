@@ -117,5 +117,5 @@ class Manaeger():
     def save_predictoin_for_batch(self, batch, num):
         for i,tensor in enumerate(batch):
             img = image_tensor_to_numpy(tensor)
-            name = self.pred_dir + get_prediction_name(num + i)
+            name = os.path.join(self.pred_dir, get_prediction_name(num + i))  
             cv.imwrite(name, img)

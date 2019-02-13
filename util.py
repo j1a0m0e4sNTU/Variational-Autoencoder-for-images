@@ -12,7 +12,7 @@ def read_img_to_tensor(path):
 
 def image_tensor_to_numpy(tensor):
     tensor = tensor.permute(1, 2, 0).type(torch.uint8)
-    img = tensor.numpy()
+    img = tensor.cpu().numpy()
     return img
 
 def test():
