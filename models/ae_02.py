@@ -6,7 +6,7 @@ class Model(nn.Module):
     def __init__(self):
         super(Model, self).__init__()
     
-        self.relu = nn.ReLU(inplace= True)
+        self.relu = nn.ReLU()
 
         self.conv1 = nn.Conv2d(3, 32, kernel_size= 3, padding= 1)
         self.pool1 = nn.MaxPool2d((4, 4), stride= (4, 4))
