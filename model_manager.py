@@ -32,10 +32,10 @@ class Manaeger():
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.model = model.to(self.device)
         self.lr = args.lr
-        self.metric = nn.MSELoss()
         self.optimizer = optim.Adam(self.model.parameters(), lr= self.lr)
         self.epoch_num = args.epoch_num
         self.batch_size = args.batch_size
+        self.sigma = args.sigma
         self.save_name = '../weights/' + args.save
         self.log_file = open('logs/' + args.log, 'w')
         self.check_batch_num = args.check_batch_num
@@ -70,8 +70,8 @@ class Manaeger():
             for batch_id, imgs in enumerate(self.train_loader):
                 imgs = imgs.to(self.device)
     
-                out = self.model(imgs)
-                loss = self.metric(out, imgs)
+                out, mu, logvar = self.model(imgs)
+                loss = vae_loss(self.sigma, out, imgs, mu, logvar)
                 self.optimizer.zero_grad()
                 loss.backward()
                 self.optimizer.step()
@@ -89,8 +89,8 @@ class Manaeger():
         loss_total = 0
         for i, imgs in enumerate(self.valid_loader):
             imgs = imgs.to(self.device)
-            out = self.model(imgs)
-            loss = self.metric(out, imgs)
+            out, mu, logvar = self.model(imgs)
+            loss = vae_loss(self.sigma, out, imgs, mu, logvar)
             loss_total += loss
 
         loss = loss_total / ((i+1) * 64 * 64)
@@ -108,14 +108,18 @@ class Manaeger():
         self.record('\n=====================\n')           
 
     def predict(self):
+        self.model.eval()
         for i, imgs in enumerate(self.valid_loader):
             imgs = imgs.to(self.device)
             out = self.model(imgs)
             self.save_predictoin_for_batch(out, i)
             if i == 0: break
 
-    def save_predictoin_for_batch(self, batch, num):
+        sample = self.model.sample(10)
+        self.save_predictoin_for_batch(sample, i, 'sample_')
+
+    def save_predictoin_for_batch(self, batch, num, prefix = ''):
         for i,tensor in enumerate(batch):
             img = image_tensor_to_numpy(tensor)
-            name = os.path.join(self.pred_dir, get_prediction_name(num + i))  
+            name = os.path.join(self.pred_dir, prefix + get_prediction_name(num + i))  
             cv.imwrite(name, img)
