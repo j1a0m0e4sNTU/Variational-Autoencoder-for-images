@@ -1,1 +1,1 @@
-python3 main.py train ae_01.py -epoch_num 100 -save ae_01.pkl -log ae_01.txt
+python3 main.py train ae_01 -epoch_num 100 -save ae_01.pkl -log ae_01.txt
