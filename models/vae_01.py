@@ -22,7 +22,7 @@ class Model(nn.Module):
     def __init__(self):
         super(Model, self).__init__()
         self.latent = 512
-
+        self.training = False
         self.encoder = nn.Sequential(
             Conv2d(3, 32, 3),
             nn.MaxPool2d((4, 4), stride= (4, 4)),
@@ -48,16 +48,16 @@ class Model(nn.Module):
         return 'VAE_01'
     
     def train(self):
-        self.train = True
+        self.training = True
 
     def eval(self):
-        self.train = False
+        self.training = False
 
     def reparameterize(self, mu, logvar):
         std = torch.exp(0.5 * logvar)
         eps = torch.rand_like(std)
         z = mu
-        if self.train:
+        if self.training:
             z = z + eps.mul(std) 
         return z
 
