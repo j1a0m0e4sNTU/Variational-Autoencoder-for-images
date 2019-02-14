@@ -2,7 +2,7 @@ import numpy as np
 import torch
 import cv2 as cv
 from matplotlib import pyplot as plt
-from toch.nn import functional as F
+from torch.nn import functional as F
 
 def read_img_to_tensor(path):
     img = cv.imread(path)
