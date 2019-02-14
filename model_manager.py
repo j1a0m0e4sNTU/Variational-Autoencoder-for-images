@@ -53,6 +53,7 @@ class Manaeger():
     def get_info(self):
         info = get_string('\nModel:', self.model.name(), '\n')
         info = get_string(info, 'Learning rate:', self.lr, '\n')
+        info = get_string(info, 'Sigma:', self.sigma, '\n')
         info = get_string(info, 'Epoch number:', self.epoch_num, '\n')
         info = get_string(info, 'Batch size:', self.batch_size, '\n')
         info = get_string(info, 'Weight name:', self.save_name, '\n')

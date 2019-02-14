@@ -17,7 +17,7 @@ parser.add_argument('-sigma', help= 'ratio of KL loss and reconstruction loss',t
 parser.add_argument('-save', help='Name to be save' , default='mdoel.pkl')
 parser.add_argument('-load', help='Weights to be load', default=None)
 parser.add_argument('-log', help='Log file', default='log.txt')
-parser.add_argument('-check_batch_num', help= 'How many batches to show result once', type= int, default=50)
+parser.add_argument('-check_batch_num', help= 'How many batches to show result once', type= int, default=200)
 parser.add_argument('-predict_dir', help= 'Directory which stores predicted images', default='../prediction')
 
 args = parser.parse_args()
