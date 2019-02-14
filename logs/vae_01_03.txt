@@ -1,0 +1,1444 @@
+        
+Model: VAE_01 
+ Learning rate: 0.001 
+ Sigma: 0.001 
+ Epoch number: 150 
+ Batch size: 64 
+ Weight name: ../weights/vae_01_03.pkl 
+ Log file: <_io.TextIOWrapper name='logs/vae_01_03.txt' mode='w' encoding='UTF-8'> 
+ =======================
+
+ Epoch 0 | batch 0 | Training loss : 4.571061134338379 
+ Epoch 0 | batch 200 | Training loss : 4.170650959014893 
+ Epoch 0 | batch 400 | Training loss : 3.9337077140808105 
+ Epoch 0 | batch 600 | Training loss : 4.282817363739014 
+
+=====================
+ Validation error for 0 epoch: 4.256191730499268
+*** Save BEST model ***
+ Best model is at epoch 0 with error: 4.256191730499268
+=====================
+ Epoch 1 | batch 0 | Training loss : 4.132370471954346 
+ Epoch 1 | batch 200 | Training loss : 4.4801154136657715 
+ Epoch 1 | batch 400 | Training loss : 3.9711484909057617 
+ Epoch 1 | batch 600 | Training loss : 4.323128700256348 
+
+=====================
+ Validation error for 1 epoch: 4.206461429595947
+*** Save BEST model ***
+ Best model is at epoch 1 with error: 4.206461429595947
+=====================
+ Epoch 2 | batch 0 | Training loss : 4.306058883666992 
+ Epoch 2 | batch 200 | Training loss : 4.279204368591309 
+ Epoch 2 | batch 400 | Training loss : 4.5649309158325195 
+ Epoch 2 | batch 600 | Training loss : 4.32714319229126 
+
+=====================
+ Validation error for 2 epoch: 4.1552042961120605
+*** Save BEST model ***
+ Best model is at epoch 2 with error: 4.1552042961120605
+=====================
+ Epoch 3 | batch 0 | Training loss : 3.7272777557373047 
+ Epoch 3 | batch 200 | Training loss : 4.7207231521606445 
+ Epoch 3 | batch 400 | Training loss : 4.2483978271484375 
+ Epoch 3 | batch 600 | Training loss : 4.031835079193115 
+
+=====================
+ Validation error for 3 epoch: 4.099160194396973
+*** Save BEST model ***
+ Best model is at epoch 3 with error: 4.099160194396973
+=====================
+ Epoch 4 | batch 0 | Training loss : 4.3354105949401855 
+ Epoch 4 | batch 200 | Training loss : 3.9774057865142822 
+ Epoch 4 | batch 400 | Training loss : 3.9212393760681152 
+ Epoch 4 | batch 600 | Training loss : 4.021517276763916 
+
+=====================
+ Validation error for 4 epoch: 4.052748680114746
+*** Save BEST model ***
+ Best model is at epoch 4 with error: 4.052748680114746
+=====================
+ Epoch 5 | batch 0 | Training loss : 4.284621238708496 
+ Epoch 5 | batch 200 | Training loss : 4.174358367919922 
+ Epoch 5 | batch 400 | Training loss : 4.1129584312438965 
+ Epoch 5 | batch 600 | Training loss : 4.119588375091553 
+
+=====================
+ Validation error for 5 epoch: 4.004749774932861
+*** Save BEST model ***
+ Best model is at epoch 5 with error: 4.004749774932861
+=====================
+ Epoch 6 | batch 0 | Training loss : 3.647507429122925 
+ Epoch 6 | batch 200 | Training loss : 4.045511722564697 
+ Epoch 6 | batch 400 | Training loss : 4.007180213928223 
+ Epoch 6 | batch 600 | Training loss : 4.104011535644531 
+
+=====================
+ Validation error for 6 epoch: 3.952068328857422
+*** Save BEST model ***
+ Best model is at epoch 6 with error: 3.952068328857422
+=====================
+ Epoch 7 | batch 0 | Training loss : 3.8887956142425537 
+ Epoch 7 | batch 200 | Training loss : 4.114756107330322 
+ Epoch 7 | batch 400 | Training loss : 4.071783065795898 
+ Epoch 7 | batch 600 | Training loss : 3.899845838546753 
+
+=====================
+ Validation error for 7 epoch: 3.900925397872925
+*** Save BEST model ***
+ Best model is at epoch 7 with error: 3.900925397872925
+=====================
+ Epoch 8 | batch 0 | Training loss : 3.6541788578033447 
+ Epoch 8 | batch 200 | Training loss : 3.9340200424194336 
+ Epoch 8 | batch 400 | Training loss : 3.7391133308410645 
+ Epoch 8 | batch 600 | Training loss : 3.9083423614501953 
+
+=====================
+ Validation error for 8 epoch: 3.853931188583374
+*** Save BEST model ***
+ Best model is at epoch 8 with error: 3.853931188583374
+=====================
+ Epoch 9 | batch 0 | Training loss : 3.9568307399749756 
+ Epoch 9 | batch 200 | Training loss : 3.632460594177246 
+ Epoch 9 | batch 400 | Training loss : 3.8126513957977295 
+ Epoch 9 | batch 600 | Training loss : 3.9484620094299316 
+
+=====================
+ Validation error for 9 epoch: 3.8095080852508545
+*** Save BEST model ***
+ Best model is at epoch 9 with error: 3.8095080852508545
+=====================
+ Epoch 10 | batch 0 | Training loss : 3.980726957321167 
+ Epoch 10 | batch 200 | Training loss : 3.5651562213897705 
+ Epoch 10 | batch 400 | Training loss : 3.4521665573120117 
+ Epoch 10 | batch 600 | Training loss : 3.695661783218384 
+
+=====================
+ Validation error for 10 epoch: 3.759436845779419
+*** Save BEST model ***
+ Best model is at epoch 10 with error: 3.759436845779419
+=====================
+ Epoch 11 | batch 0 | Training loss : 3.750596761703491 
+ Epoch 11 | batch 200 | Training loss : 4.085697174072266 
+ Epoch 11 | batch 400 | Training loss : 3.8918044567108154 
+ Epoch 11 | batch 600 | Training loss : 3.4981606006622314 
+
+=====================
+ Validation error for 11 epoch: 3.715988874435425
+*** Save BEST model ***
+ Best model is at epoch 11 with error: 3.715988874435425
+=====================
+ Epoch 12 | batch 0 | Training loss : 3.441601514816284 
+ Epoch 12 | batch 200 | Training loss : 3.9564688205718994 
+ Epoch 12 | batch 400 | Training loss : 3.6311585903167725 
+ Epoch 12 | batch 600 | Training loss : 4.227781295776367 
+
+=====================
+ Validation error for 12 epoch: 3.6659069061279297
+*** Save BEST model ***
+ Best model is at epoch 12 with error: 3.6659069061279297
+=====================
+ Epoch 13 | batch 0 | Training loss : 3.511570453643799 
+ Epoch 13 | batch 200 | Training loss : 3.7868082523345947 
+ Epoch 13 | batch 400 | Training loss : 3.679147958755493 
+ Epoch 13 | batch 600 | Training loss : 3.677820920944214 
+
+=====================
+ Validation error for 13 epoch: 3.6202356815338135
+*** Save BEST model ***
+ Best model is at epoch 13 with error: 3.6202356815338135
+=====================
+ Epoch 14 | batch 0 | Training loss : 3.6380457878112793 
+ Epoch 14 | batch 200 | Training loss : 3.7567121982574463 
+ Epoch 14 | batch 400 | Training loss : 3.5900888442993164 
+ Epoch 14 | batch 600 | Training loss : 3.426069736480713 
+
+=====================
+ Validation error for 14 epoch: 3.576921224594116
+*** Save BEST model ***
+ Best model is at epoch 14 with error: 3.576921224594116
+=====================
+ Epoch 15 | batch 0 | Training loss : 3.645616292953491 
+ Epoch 15 | batch 200 | Training loss : 3.322657823562622 
+ Epoch 15 | batch 400 | Training loss : 3.90435791015625 
+ Epoch 15 | batch 600 | Training loss : 3.7277884483337402 
+
+=====================
+ Validation error for 15 epoch: 3.5289416313171387
+*** Save BEST model ***
+ Best model is at epoch 15 with error: 3.5289416313171387
+=====================
+ Epoch 16 | batch 0 | Training loss : 3.558666467666626 
+ Epoch 16 | batch 200 | Training loss : 3.351041316986084 
+ Epoch 16 | batch 400 | Training loss : 3.4894216060638428 
+ Epoch 16 | batch 600 | Training loss : 3.5376944541931152 
+
+=====================
+ Validation error for 16 epoch: 3.4873268604278564
+*** Save BEST model ***
+ Best model is at epoch 16 with error: 3.4873268604278564
+=====================
+ Epoch 17 | batch 0 | Training loss : 3.1437735557556152 
+ Epoch 17 | batch 200 | Training loss : 3.4575514793395996 
+ Epoch 17 | batch 400 | Training loss : 3.277892827987671 
+ Epoch 17 | batch 600 | Training loss : 3.52858829498291 
+
+=====================
+ Validation error for 17 epoch: 3.439969539642334
+*** Save BEST model ***
+ Best model is at epoch 17 with error: 3.439969539642334
+=====================
+ Epoch 18 | batch 0 | Training loss : 3.442595958709717 
+ Epoch 18 | batch 200 | Training loss : 3.440345287322998 
+ Epoch 18 | batch 400 | Training loss : 3.420809030532837 
+ Epoch 18 | batch 600 | Training loss : 3.3204336166381836 
+
+=====================
+ Validation error for 18 epoch: 3.398592948913574
+*** Save BEST model ***
+ Best model is at epoch 18 with error: 3.398592948913574
+=====================
+ Epoch 19 | batch 0 | Training loss : 3.3330187797546387 
+ Epoch 19 | batch 200 | Training loss : 3.437927484512329 
+ Epoch 19 | batch 400 | Training loss : 3.445802688598633 
+ Epoch 19 | batch 600 | Training loss : 3.504485607147217 
+
+=====================
+ Validation error for 19 epoch: 3.355729103088379
+*** Save BEST model ***
+ Best model is at epoch 19 with error: 3.355729103088379
+=====================
+ Epoch 20 | batch 0 | Training loss : 3.406695604324341 
+ Epoch 20 | batch 200 | Training loss : 3.53651762008667 
+ Epoch 20 | batch 400 | Training loss : 3.2156357765197754 
+ Epoch 20 | batch 600 | Training loss : 3.3740150928497314 
+
+=====================
+ Validation error for 20 epoch: 3.315201759338379
+*** Save BEST model ***
+ Best model is at epoch 20 with error: 3.315201759338379
+=====================
+ Epoch 21 | batch 0 | Training loss : 3.3430333137512207 
+ Epoch 21 | batch 200 | Training loss : 3.279346466064453 
+ Epoch 21 | batch 400 | Training loss : 3.571552038192749 
+ Epoch 21 | batch 600 | Training loss : 3.3587753772735596 
+
+=====================
+ Validation error for 21 epoch: 3.271305561065674
+*** Save BEST model ***
+ Best model is at epoch 21 with error: 3.271305561065674
+=====================
+ Epoch 22 | batch 0 | Training loss : 3.3478341102600098 
+ Epoch 22 | batch 200 | Training loss : 3.292663812637329 
+ Epoch 22 | batch 400 | Training loss : 3.731672763824463 
+ Epoch 22 | batch 600 | Training loss : 3.1536951065063477 
+
+=====================
+ Validation error for 22 epoch: 3.2295632362365723
+*** Save BEST model ***
+ Best model is at epoch 22 with error: 3.2295632362365723
+=====================
+ Epoch 23 | batch 0 | Training loss : 3.1081454753875732 
+ Epoch 23 | batch 200 | Training loss : 2.9812557697296143 
+ Epoch 23 | batch 400 | Training loss : 3.383474349975586 
+ Epoch 23 | batch 600 | Training loss : 3.115734338760376 
+
+=====================
+ Validation error for 23 epoch: 3.181438446044922
+*** Save BEST model ***
+ Best model is at epoch 23 with error: 3.181438446044922
+=====================
+ Epoch 24 | batch 0 | Training loss : 3.139146566390991 
+ Epoch 24 | batch 200 | Training loss : 3.458913564682007 
+ Epoch 24 | batch 400 | Training loss : 3.1210832595825195 
+ Epoch 24 | batch 600 | Training loss : 3.038235902786255 
+
+=====================
+ Validation error for 24 epoch: 3.1419100761413574
+*** Save BEST model ***
+ Best model is at epoch 24 with error: 3.1419100761413574
+=====================
+ Epoch 25 | batch 0 | Training loss : 3.146743059158325 
+ Epoch 25 | batch 200 | Training loss : 3.0220813751220703 
+ Epoch 25 | batch 400 | Training loss : 3.0434412956237793 
+ Epoch 25 | batch 600 | Training loss : 3.155517578125 
+
+=====================
+ Validation error for 25 epoch: 3.1025586128234863
+*** Save BEST model ***
+ Best model is at epoch 25 with error: 3.1025586128234863
+=====================
+ Epoch 26 | batch 0 | Training loss : 3.2132153511047363 
+ Epoch 26 | batch 200 | Training loss : 3.205998420715332 
+ Epoch 26 | batch 400 | Training loss : 2.9111974239349365 
+ Epoch 26 | batch 600 | Training loss : 2.8946685791015625 
+
+=====================
+ Validation error for 26 epoch: 3.065492868423462
+*** Save BEST model ***
+ Best model is at epoch 26 with error: 3.065492868423462
+=====================
+ Epoch 27 | batch 0 | Training loss : 3.030025005340576 
+ Epoch 27 | batch 200 | Training loss : 2.988750457763672 
+ Epoch 27 | batch 400 | Training loss : 2.9450786113739014 
+ Epoch 27 | batch 600 | Training loss : 2.8875913619995117 
+
+=====================
+ Validation error for 27 epoch: 3.0222787857055664
+*** Save BEST model ***
+ Best model is at epoch 27 with error: 3.0222787857055664
+=====================
+ Epoch 28 | batch 0 | Training loss : 3.1690258979797363 
+ Epoch 28 | batch 200 | Training loss : 2.9970502853393555 
+ Epoch 28 | batch 400 | Training loss : 2.835268974304199 
+ Epoch 28 | batch 600 | Training loss : 2.6707963943481445 
+
+=====================
+ Validation error for 28 epoch: 2.977324962615967
+*** Save BEST model ***
+ Best model is at epoch 28 with error: 2.977324962615967
+=====================
+ Epoch 29 | batch 0 | Training loss : 2.9362926483154297 
+ Epoch 29 | batch 200 | Training loss : 2.921738624572754 
+ Epoch 29 | batch 400 | Training loss : 3.0411031246185303 
+ Epoch 29 | batch 600 | Training loss : 2.847248077392578 
+
+=====================
+ Validation error for 29 epoch: 2.9424564838409424
+*** Save BEST model ***
+ Best model is at epoch 29 with error: 2.9424564838409424
+=====================
+ Epoch 30 | batch 0 | Training loss : 2.895491600036621 
+ Epoch 30 | batch 200 | Training loss : 2.752619981765747 
+ Epoch 30 | batch 400 | Training loss : 3.0190482139587402 
+ Epoch 30 | batch 600 | Training loss : 2.8400208950042725 
+
+=====================
+ Validation error for 30 epoch: 2.90527606010437
+*** Save BEST model ***
+ Best model is at epoch 30 with error: 2.90527606010437
+=====================
+ Epoch 31 | batch 0 | Training loss : 2.867017984390259 
+ Epoch 31 | batch 200 | Training loss : 2.580510377883911 
+ Epoch 31 | batch 400 | Training loss : 3.1284372806549072 
+ Epoch 31 | batch 600 | Training loss : 3.035187244415283 
+
+=====================
+ Validation error for 31 epoch: 2.8608243465423584
+*** Save BEST model ***
+ Best model is at epoch 31 with error: 2.8608243465423584
+=====================
+ Epoch 32 | batch 0 | Training loss : 2.650588035583496 
+ Epoch 32 | batch 200 | Training loss : 2.8003666400909424 
+ Epoch 32 | batch 400 | Training loss : 2.5875372886657715 
+ Epoch 32 | batch 600 | Training loss : 2.8845932483673096 
+
+=====================
+ Validation error for 32 epoch: 2.8270304203033447
+*** Save BEST model ***
+ Best model is at epoch 32 with error: 2.8270304203033447
+=====================
+ Epoch 33 | batch 0 | Training loss : 2.933284282684326 
+ Epoch 33 | batch 200 | Training loss : 2.746703624725342 
+ Epoch 33 | batch 400 | Training loss : 2.775770664215088 
+ Epoch 33 | batch 600 | Training loss : 2.6882731914520264 
+
+=====================
+ Validation error for 33 epoch: 2.792720079421997
+*** Save BEST model ***
+ Best model is at epoch 33 with error: 2.792720079421997
+=====================
+ Epoch 34 | batch 0 | Training loss : 3.0028297901153564 
+ Epoch 34 | batch 200 | Training loss : 2.8135597705841064 
+ Epoch 34 | batch 400 | Training loss : 2.707890510559082 
+ Epoch 34 | batch 600 | Training loss : 2.6083874702453613 
+
+=====================
+ Validation error for 34 epoch: 2.7480063438415527
+*** Save BEST model ***
+ Best model is at epoch 34 with error: 2.7480063438415527
+=====================
+ Epoch 35 | batch 0 | Training loss : 2.812932014465332 
+ Epoch 35 | batch 200 | Training loss : 2.7408525943756104 
+ Epoch 35 | batch 400 | Training loss : 2.882826566696167 
+ Epoch 35 | batch 600 | Training loss : 2.9265806674957275 
+
+=====================
+ Validation error for 35 epoch: 2.7140510082244873
+*** Save BEST model ***
+ Best model is at epoch 35 with error: 2.7140510082244873
+=====================
+ Epoch 36 | batch 0 | Training loss : 2.753554344177246 
+ Epoch 36 | batch 200 | Training loss : 2.811919689178467 
+ Epoch 36 | batch 400 | Training loss : 2.3246848583221436 
+ Epoch 36 | batch 600 | Training loss : 2.518200635910034 
+
+=====================
+ Validation error for 36 epoch: 2.673586845397949
+*** Save BEST model ***
+ Best model is at epoch 36 with error: 2.673586845397949
+=====================
+ Epoch 37 | batch 0 | Training loss : 2.520859956741333 
+ Epoch 37 | batch 200 | Training loss : 2.5352070331573486 
+ Epoch 37 | batch 400 | Training loss : 2.51469087600708 
+ Epoch 37 | batch 600 | Training loss : 2.7028770446777344 
+
+=====================
+ Validation error for 37 epoch: 2.640592098236084
+*** Save BEST model ***
+ Best model is at epoch 37 with error: 2.640592098236084
+=====================
+ Epoch 38 | batch 0 | Training loss : 2.468937397003174 
+ Epoch 38 | batch 200 | Training loss : 2.420515298843384 
+ Epoch 38 | batch 400 | Training loss : 2.497481346130371 
+ Epoch 38 | batch 600 | Training loss : 2.688542366027832 
+
+=====================
+ Validation error for 38 epoch: 2.606363296508789
+*** Save BEST model ***
+ Best model is at epoch 38 with error: 2.606363296508789
+=====================
+ Epoch 39 | batch 0 | Training loss : 2.5483238697052 
+ Epoch 39 | batch 200 | Training loss : 2.6551826000213623 
+ Epoch 39 | batch 400 | Training loss : 2.8880577087402344 
+ Epoch 39 | batch 600 | Training loss : 2.492668867111206 
+
+=====================
+ Validation error for 39 epoch: 2.564857244491577
+*** Save BEST model ***
+ Best model is at epoch 39 with error: 2.564857244491577
+=====================
+ Epoch 40 | batch 0 | Training loss : 2.338918447494507 
+ Epoch 40 | batch 200 | Training loss : 2.4396793842315674 
+ Epoch 40 | batch 400 | Training loss : 2.5937340259552 
+ Epoch 40 | batch 600 | Training loss : 2.550662040710449 
+
+=====================
+ Validation error for 40 epoch: 2.5344700813293457
+*** Save BEST model ***
+ Best model is at epoch 40 with error: 2.5344700813293457
+=====================
+ Epoch 41 | batch 0 | Training loss : 2.4547910690307617 
+ Epoch 41 | batch 200 | Training loss : 2.491974115371704 
+ Epoch 41 | batch 400 | Training loss : 2.486021041870117 
+ Epoch 41 | batch 600 | Training loss : 2.481278896331787 
+
+=====================
+ Validation error for 41 epoch: 2.4878416061401367
+*** Save BEST model ***
+ Best model is at epoch 41 with error: 2.4878416061401367
+=====================
+ Epoch 42 | batch 0 | Training loss : 2.47961688041687 
+ Epoch 42 | batch 200 | Training loss : 2.3958687782287598 
+ Epoch 42 | batch 400 | Training loss : 2.254833698272705 
+ Epoch 42 | batch 600 | Training loss : 2.370696783065796 
+
+=====================
+ Validation error for 42 epoch: 2.468478202819824
+*** Save BEST model ***
+ Best model is at epoch 42 with error: 2.468478202819824
+=====================
+ Epoch 43 | batch 0 | Training loss : 2.3363685607910156 
+ Epoch 43 | batch 200 | Training loss : 2.4249160289764404 
+ Epoch 43 | batch 400 | Training loss : 2.273259162902832 
+ Epoch 43 | batch 600 | Training loss : 2.5083632469177246 
+
+=====================
+ Validation error for 43 epoch: 2.4290266036987305
+*** Save BEST model ***
+ Best model is at epoch 43 with error: 2.4290266036987305
+=====================
+ Epoch 44 | batch 0 | Training loss : 2.4283556938171387 
+ Epoch 44 | batch 200 | Training loss : 2.366981267929077 
+ Epoch 44 | batch 400 | Training loss : 2.2168805599212646 
+ Epoch 44 | batch 600 | Training loss : 2.2860896587371826 
+
+=====================
+ Validation error for 44 epoch: 2.3864643573760986
+*** Save BEST model ***
+ Best model is at epoch 44 with error: 2.3864643573760986
+=====================
+ Epoch 45 | batch 0 | Training loss : 2.268655300140381 
+ Epoch 45 | batch 200 | Training loss : 2.3404836654663086 
+ Epoch 45 | batch 400 | Training loss : 2.337718963623047 
+ Epoch 45 | batch 600 | Training loss : 1.9616261720657349 
+
+=====================
+ Validation error for 45 epoch: 2.3626837730407715
+*** Save BEST model ***
+ Best model is at epoch 45 with error: 2.3626837730407715
+=====================
+ Epoch 46 | batch 0 | Training loss : 2.3021907806396484 
+ Epoch 46 | batch 200 | Training loss : 2.2265677452087402 
+ Epoch 46 | batch 400 | Training loss : 2.369727373123169 
+ Epoch 46 | batch 600 | Training loss : 2.3589987754821777 
+
+=====================
+ Validation error for 46 epoch: 2.3242242336273193
+*** Save BEST model ***
+ Best model is at epoch 46 with error: 2.3242242336273193
+=====================
+ Epoch 47 | batch 0 | Training loss : 2.613252639770508 
+ Epoch 47 | batch 200 | Training loss : 2.3225624561309814 
+ Epoch 47 | batch 400 | Training loss : 2.2944347858428955 
+ Epoch 47 | batch 600 | Training loss : 2.0192675590515137 
+
+=====================
+ Validation error for 47 epoch: 2.2908313274383545
+*** Save BEST model ***
+ Best model is at epoch 47 with error: 2.2908313274383545
+=====================
+ Epoch 48 | batch 0 | Training loss : 2.220752716064453 
+ Epoch 48 | batch 200 | Training loss : 2.004240036010742 
+ Epoch 48 | batch 400 | Training loss : 2.3602449893951416 
+ Epoch 48 | batch 600 | Training loss : 2.4227991104125977 
+
+=====================
+ Validation error for 48 epoch: 2.2693347930908203
+*** Save BEST model ***
+ Best model is at epoch 48 with error: 2.2693347930908203
+=====================
+ Epoch 49 | batch 0 | Training loss : 2.3701798915863037 
+ Epoch 49 | batch 200 | Training loss : 2.2969629764556885 
+ Epoch 49 | batch 400 | Training loss : 2.0170979499816895 
+ Epoch 49 | batch 600 | Training loss : 1.8321471214294434 
+
+=====================
+ Validation error for 49 epoch: 2.233996629714966
+*** Save BEST model ***
+ Best model is at epoch 49 with error: 2.233996629714966
+=====================
+ Epoch 50 | batch 0 | Training loss : 1.9737313985824585 
+ Epoch 50 | batch 200 | Training loss : 2.0069401264190674 
+ Epoch 50 | batch 400 | Training loss : 2.2430992126464844 
+ Epoch 50 | batch 600 | Training loss : 2.148151159286499 
+
+=====================
+ Validation error for 50 epoch: 2.2059929370880127
+*** Save BEST model ***
+ Best model is at epoch 50 with error: 2.2059929370880127
+=====================
+ Epoch 51 | batch 0 | Training loss : 2.1723368167877197 
+ Epoch 51 | batch 200 | Training loss : 2.0706238746643066 
+ Epoch 51 | batch 400 | Training loss : 2.1107406616210938 
+ Epoch 51 | batch 600 | Training loss : 2.10524320602417 
+
+=====================
+ Validation error for 51 epoch: 2.171241044998169
+*** Save BEST model ***
+ Best model is at epoch 51 with error: 2.171241044998169
+=====================
+ Epoch 52 | batch 0 | Training loss : 2.0573956966400146 
+ Epoch 52 | batch 200 | Training loss : 2.198805093765259 
+ Epoch 52 | batch 400 | Training loss : 2.1649060249328613 
+ Epoch 52 | batch 600 | Training loss : 2.129598617553711 
+
+=====================
+ Validation error for 52 epoch: 2.1275665760040283
+*** Save BEST model ***
+ Best model is at epoch 52 with error: 2.1275665760040283
+=====================
+ Epoch 53 | batch 0 | Training loss : 2.1045687198638916 
+ Epoch 53 | batch 200 | Training loss : 2.000965118408203 
+ Epoch 53 | batch 400 | Training loss : 2.007084608078003 
+ Epoch 53 | batch 600 | Training loss : 1.9644025564193726 
+
+=====================
+ Validation error for 53 epoch: 2.1050291061401367
+*** Save BEST model ***
+ Best model is at epoch 53 with error: 2.1050291061401367
+=====================
+ Epoch 54 | batch 0 | Training loss : 1.8551446199417114 
+ Epoch 54 | batch 200 | Training loss : 1.733817458152771 
+ Epoch 54 | batch 400 | Training loss : 2.2118515968322754 
+ Epoch 54 | batch 600 | Training loss : 2.24456787109375 
+
+=====================
+ Validation error for 54 epoch: 2.0587689876556396
+*** Save BEST model ***
+ Best model is at epoch 54 with error: 2.0587689876556396
+=====================
+ Epoch 55 | batch 0 | Training loss : 2.0045816898345947 
+ Epoch 55 | batch 200 | Training loss : 1.7738285064697266 
+ Epoch 55 | batch 400 | Training loss : 1.9652230739593506 
+ Epoch 55 | batch 600 | Training loss : 2.0436487197875977 
+
+=====================
+ Validation error for 55 epoch: 2.049509286880493
+*** Save BEST model ***
+ Best model is at epoch 55 with error: 2.049509286880493
+=====================
+ Epoch 56 | batch 0 | Training loss : 1.9570825099945068 
+ Epoch 56 | batch 200 | Training loss : 1.8886874914169312 
+ Epoch 56 | batch 400 | Training loss : 2.021437883377075 
+ Epoch 56 | batch 600 | Training loss : 1.9973047971725464 
+
+=====================
+ Validation error for 56 epoch: 2.011667013168335
+*** Save BEST model ***
+ Best model is at epoch 56 with error: 2.011667013168335
+=====================
+ Epoch 57 | batch 0 | Training loss : 1.9815434217453003 
+ Epoch 57 | batch 200 | Training loss : 1.7515331506729126 
+ Epoch 57 | batch 400 | Training loss : 1.8833754062652588 
+ Epoch 57 | batch 600 | Training loss : 1.9316045045852661 
+
+=====================
+ Validation error for 57 epoch: 1.987005591392517
+*** Save BEST model ***
+ Best model is at epoch 57 with error: 1.987005591392517
+=====================
+ Epoch 58 | batch 0 | Training loss : 2.064873695373535 
+ Epoch 58 | batch 200 | Training loss : 1.9292140007019043 
+ Epoch 58 | batch 400 | Training loss : 1.9023408889770508 
+ Epoch 58 | batch 600 | Training loss : 1.936227798461914 
+
+=====================
+ Validation error for 58 epoch: 1.9570775032043457
+*** Save BEST model ***
+ Best model is at epoch 58 with error: 1.9570775032043457
+=====================
+ Epoch 59 | batch 0 | Training loss : 1.8526796102523804 
+ Epoch 59 | batch 200 | Training loss : 1.954034686088562 
+ Epoch 59 | batch 400 | Training loss : 1.7265138626098633 
+ Epoch 59 | batch 600 | Training loss : 1.8969892263412476 
+
+=====================
+ Validation error for 59 epoch: 1.93061101436615
+*** Save BEST model ***
+ Best model is at epoch 59 with error: 1.93061101436615
+=====================
+ Epoch 60 | batch 0 | Training loss : 1.6092252731323242 
+ Epoch 60 | batch 200 | Training loss : 1.7953910827636719 
+ Epoch 60 | batch 400 | Training loss : 1.681240439414978 
+ Epoch 60 | batch 600 | Training loss : 1.7726507186889648 
+
+=====================
+ Validation error for 60 epoch: 1.919573426246643
+*** Save BEST model ***
+ Best model is at epoch 60 with error: 1.919573426246643
+=====================
+ Epoch 61 | batch 0 | Training loss : 1.6146427392959595 
+ Epoch 61 | batch 200 | Training loss : 1.8756661415100098 
+ Epoch 61 | batch 400 | Training loss : 1.7055758237838745 
+ Epoch 61 | batch 600 | Training loss : 1.745948076248169 
+
+=====================
+ Validation error for 61 epoch: 1.8507581949234009
+*** Save BEST model ***
+ Best model is at epoch 61 with error: 1.8507581949234009
+=====================
+ Epoch 62 | batch 0 | Training loss : 1.8885560035705566 
+ Epoch 62 | batch 200 | Training loss : 1.7115222215652466 
+ Epoch 62 | batch 400 | Training loss : 2.009859800338745 
+ Epoch 62 | batch 600 | Training loss : 1.7316441535949707 
+
+=====================
+ Validation error for 62 epoch: 1.8497626781463623
+*** Save BEST model ***
+ Best model is at epoch 62 with error: 1.8497626781463623
+=====================
+ Epoch 63 | batch 0 | Training loss : 1.8081152439117432 
+ Epoch 63 | batch 200 | Training loss : 1.5739786624908447 
+ Epoch 63 | batch 400 | Training loss : 1.7679582834243774 
+ Epoch 63 | batch 600 | Training loss : 1.870526909828186 
+
+=====================
+ Validation error for 63 epoch: 1.838889241218567
+*** Save BEST model ***
+ Best model is at epoch 63 with error: 1.838889241218567
+=====================
+ Epoch 64 | batch 0 | Training loss : 1.7104277610778809 
+ Epoch 64 | batch 200 | Training loss : 1.560241460800171 
+ Epoch 64 | batch 400 | Training loss : 1.9072104692459106 
+ Epoch 64 | batch 600 | Training loss : 1.8135777711868286 
+
+=====================
+ Validation error for 64 epoch: 1.8153791427612305
+*** Save BEST model ***
+ Best model is at epoch 64 with error: 1.8153791427612305
+=====================
+ Epoch 65 | batch 0 | Training loss : 1.655864953994751 
+ Epoch 65 | batch 200 | Training loss : 1.6054258346557617 
+ Epoch 65 | batch 400 | Training loss : 1.5960348844528198 
+ Epoch 65 | batch 600 | Training loss : 1.594597339630127 
+
+=====================
+ Validation error for 65 epoch: 1.7666997909545898
+*** Save BEST model ***
+ Best model is at epoch 65 with error: 1.7666997909545898
+=====================
+ Epoch 66 | batch 0 | Training loss : 1.4439711570739746 
+ Epoch 66 | batch 200 | Training loss : 1.4322755336761475 
+ Epoch 66 | batch 400 | Training loss : 1.4406015872955322 
+ Epoch 66 | batch 600 | Training loss : 1.6697660684585571 
+
+=====================
+ Validation error for 66 epoch: 1.7264388799667358
+*** Save BEST model ***
+ Best model is at epoch 66 with error: 1.7264388799667358
+=====================
+ Epoch 67 | batch 0 | Training loss : 1.4983785152435303 
+ Epoch 67 | batch 200 | Training loss : 1.413769245147705 
+ Epoch 67 | batch 400 | Training loss : 1.5994364023208618 
+ Epoch 67 | batch 600 | Training loss : 1.5449672937393188 
+
+=====================
+ Validation error for 67 epoch: 1.7113687992095947
+*** Save BEST model ***
+ Best model is at epoch 67 with error: 1.7113687992095947
+=====================
+ Epoch 68 | batch 0 | Training loss : 1.7177510261535645 
+ Epoch 68 | batch 200 | Training loss : 1.3700478076934814 
+ Epoch 68 | batch 400 | Training loss : 1.4680472612380981 
+ Epoch 68 | batch 600 | Training loss : 1.51869535446167 
+
+=====================
+ Validation error for 68 epoch: 1.6745381355285645
+*** Save BEST model ***
+ Best model is at epoch 68 with error: 1.6745381355285645
+=====================
+ Epoch 69 | batch 0 | Training loss : 1.615314245223999 
+ Epoch 69 | batch 200 | Training loss : 1.4673539400100708 
+ Epoch 69 | batch 400 | Training loss : 1.5141361951828003 
+ Epoch 69 | batch 600 | Training loss : 1.5769550800323486 
+
+=====================
+ Validation error for 69 epoch: 1.6533383131027222
+*** Save BEST model ***
+ Best model is at epoch 69 with error: 1.6533383131027222
+=====================
+ Epoch 70 | batch 0 | Training loss : 1.6000597476959229 
+ Epoch 70 | batch 200 | Training loss : 1.6229939460754395 
+ Epoch 70 | batch 400 | Training loss : 1.5843095779418945 
+ Epoch 70 | batch 600 | Training loss : 1.4611849784851074 
+
+=====================
+ Validation error for 70 epoch: 1.630651831626892
+*** Save BEST model ***
+ Best model is at epoch 70 with error: 1.630651831626892
+=====================
+ Epoch 71 | batch 0 | Training loss : 1.376244306564331 
+ Epoch 71 | batch 200 | Training loss : 1.5642167329788208 
+ Epoch 71 | batch 400 | Training loss : 1.4626529216766357 
+ Epoch 71 | batch 600 | Training loss : 1.3617998361587524 
+
+=====================
+ Validation error for 71 epoch: 1.6006982326507568
+*** Save BEST model ***
+ Best model is at epoch 71 with error: 1.6006982326507568
+=====================
+ Epoch 72 | batch 0 | Training loss : 1.4765756130218506 
+ Epoch 72 | batch 200 | Training loss : 1.1950501203536987 
+ Epoch 72 | batch 400 | Training loss : 1.494977355003357 
+ Epoch 72 | batch 600 | Training loss : 1.402840256690979 
+
+=====================
+ Validation error for 72 epoch: 1.590847373008728
+*** Save BEST model ***
+ Best model is at epoch 72 with error: 1.590847373008728
+=====================
+ Epoch 73 | batch 0 | Training loss : 1.2874755859375 
+ Epoch 73 | batch 200 | Training loss : 1.4392383098602295 
+ Epoch 73 | batch 400 | Training loss : 1.430951714515686 
+ Epoch 73 | batch 600 | Training loss : 1.3826560974121094 
+
+=====================
+ Validation error for 73 epoch: 1.565965175628662
+*** Save BEST model ***
+ Best model is at epoch 73 with error: 1.565965175628662
+=====================
+ Epoch 74 | batch 0 | Training loss : 1.4058319330215454 
+ Epoch 74 | batch 200 | Training loss : 1.3552868366241455 
+ Epoch 74 | batch 400 | Training loss : 1.4566664695739746 
+ Epoch 74 | batch 600 | Training loss : 1.3492708206176758 
+
+=====================
+ Validation error for 74 epoch: 1.5277478694915771
+*** Save BEST model ***
+ Best model is at epoch 74 with error: 1.5277478694915771
+=====================
+ Epoch 75 | batch 0 | Training loss : 1.3151510953903198 
+ Epoch 75 | batch 200 | Training loss : 1.4982558488845825 
+ Epoch 75 | batch 400 | Training loss : 1.547814130783081 
+ Epoch 75 | batch 600 | Training loss : 1.1867196559906006 
+
+=====================
+ Validation error for 75 epoch: 1.501557469367981
+*** Save BEST model ***
+ Best model is at epoch 75 with error: 1.501557469367981
+=====================
+ Epoch 76 | batch 0 | Training loss : 1.3243281841278076 
+ Epoch 76 | batch 200 | Training loss : 1.361163854598999 
+ Epoch 76 | batch 400 | Training loss : 1.2454806566238403 
+ Epoch 76 | batch 600 | Training loss : 1.1932896375656128 
+
+=====================
+ Validation error for 76 epoch: 1.5035256147384644 Best model is at epoch 75 with error: 1.501557469367981
+=====================
+ Epoch 77 | batch 0 | Training loss : 1.1891840696334839 
+ Epoch 77 | batch 200 | Training loss : 1.237026572227478 
+ Epoch 77 | batch 400 | Training loss : 1.3679949045181274 
+ Epoch 77 | batch 600 | Training loss : 1.2650084495544434 
+
+=====================
+ Validation error for 77 epoch: 1.4887393712997437
+*** Save BEST model ***
+ Best model is at epoch 77 with error: 1.4887393712997437
+=====================
+ Epoch 78 | batch 0 | Training loss : 1.3768389225006104 
+ Epoch 78 | batch 200 | Training loss : 1.2506004571914673 
+ Epoch 78 | batch 400 | Training loss : 1.2531335353851318 
+ Epoch 78 | batch 600 | Training loss : 1.2959543466567993 
+
+=====================
+ Validation error for 78 epoch: 1.44252610206604
+*** Save BEST model ***
+ Best model is at epoch 78 with error: 1.44252610206604
+=====================
+ Epoch 79 | batch 0 | Training loss : 1.2438679933547974 
+ Epoch 79 | batch 200 | Training loss : 1.256742000579834 
+ Epoch 79 | batch 400 | Training loss : 1.0975178480148315 
+ Epoch 79 | batch 600 | Training loss : 1.0326547622680664 
+
+=====================
+ Validation error for 79 epoch: 1.4136544466018677
+*** Save BEST model ***
+ Best model is at epoch 79 with error: 1.4136544466018677
+=====================
+ Epoch 80 | batch 0 | Training loss : 1.23941969871521 
+ Epoch 80 | batch 200 | Training loss : 1.4866660833358765 
+ Epoch 80 | batch 400 | Training loss : 1.1966537237167358 
+ Epoch 80 | batch 600 | Training loss : 1.0905264616012573 
+
+=====================
+ Validation error for 80 epoch: 1.3997844457626343
+*** Save BEST model ***
+ Best model is at epoch 80 with error: 1.3997844457626343
+=====================
+ Epoch 81 | batch 0 | Training loss : 1.2106958627700806 
+ Epoch 81 | batch 200 | Training loss : 1.3838248252868652 
+ Epoch 81 | batch 400 | Training loss : 1.036906361579895 
+ Epoch 81 | batch 600 | Training loss : 1.2402763366699219 
+
+=====================
+ Validation error for 81 epoch: 1.3669849634170532
+*** Save BEST model ***
+ Best model is at epoch 81 with error: 1.3669849634170532
+=====================
+ Epoch 82 | batch 0 | Training loss : 1.2160812616348267 
+ Epoch 82 | batch 200 | Training loss : 1.2281605005264282 
+ Epoch 82 | batch 400 | Training loss : 1.4063720703125 
+ Epoch 82 | batch 600 | Training loss : 1.1985445022583008 
+
+=====================
+ Validation error for 82 epoch: 1.3644481897354126
+*** Save BEST model ***
+ Best model is at epoch 82 with error: 1.3644481897354126
+=====================
+ Epoch 83 | batch 0 | Training loss : 1.0895814895629883 
+ Epoch 83 | batch 200 | Training loss : 1.2585862874984741 
+ Epoch 83 | batch 400 | Training loss : 0.9462878704071045 
+ Epoch 83 | batch 600 | Training loss : 1.095246434211731 
+
+=====================
+ Validation error for 83 epoch: 1.3569810390472412
+*** Save BEST model ***
+ Best model is at epoch 83 with error: 1.3569810390472412
+=====================
+ Epoch 84 | batch 0 | Training loss : 1.0258088111877441 
+ Epoch 84 | batch 200 | Training loss : 0.9792304039001465 
+ Epoch 84 | batch 400 | Training loss : 1.0153144598007202 
+ Epoch 84 | batch 600 | Training loss : 0.983501136302948 
+
+=====================
+ Validation error for 84 epoch: 1.3254812955856323
+*** Save BEST model ***
+ Best model is at epoch 84 with error: 1.3254812955856323
+=====================
+ Epoch 85 | batch 0 | Training loss : 1.0894286632537842 
+ Epoch 85 | batch 200 | Training loss : 0.9854134321212769 
+ Epoch 85 | batch 400 | Training loss : 1.0962812900543213 
+ Epoch 85 | batch 600 | Training loss : 0.9742629528045654 
+
+=====================
+ Validation error for 85 epoch: 1.2871335744857788
+*** Save BEST model ***
+ Best model is at epoch 85 with error: 1.2871335744857788
+=====================
+ Epoch 86 | batch 0 | Training loss : 1.1323078870773315 
+ Epoch 86 | batch 200 | Training loss : 0.9984158277511597 
+ Epoch 86 | batch 400 | Training loss : 1.1261626482009888 
+ Epoch 86 | batch 600 | Training loss : 1.0096443891525269 
+
+=====================
+ Validation error for 86 epoch: 1.317204236984253 Best model is at epoch 85 with error: 1.2871335744857788
+=====================
+ Epoch 87 | batch 0 | Training loss : 1.2567304372787476 
+ Epoch 87 | batch 200 | Training loss : 1.0779471397399902 
+ Epoch 87 | batch 400 | Training loss : 1.1806190013885498 
+ Epoch 87 | batch 600 | Training loss : 1.1547210216522217 
+
+=====================
+ Validation error for 87 epoch: 1.2431387901306152
+*** Save BEST model ***
+ Best model is at epoch 87 with error: 1.2431387901306152
+=====================
+ Epoch 88 | batch 0 | Training loss : 1.260545015335083 
+ Epoch 88 | batch 200 | Training loss : 1.028244137763977 
+ Epoch 88 | batch 400 | Training loss : 1.0340698957443237 
+ Epoch 88 | batch 600 | Training loss : 0.9800213575363159 
+
+=====================
+ Validation error for 88 epoch: 1.2257155179977417
+*** Save BEST model ***
+ Best model is at epoch 88 with error: 1.2257155179977417
+=====================
+ Epoch 89 | batch 0 | Training loss : 0.9824613332748413 
+ Epoch 89 | batch 200 | Training loss : 0.9081267714500427 
+ Epoch 89 | batch 400 | Training loss : 0.9855732321739197 
+ Epoch 89 | batch 600 | Training loss : 0.8842713832855225 
+
+=====================
+ Validation error for 89 epoch: 1.2355287075042725 Best model is at epoch 88 with error: 1.2257155179977417
+=====================
+ Epoch 90 | batch 0 | Training loss : 0.9840470552444458 
+ Epoch 90 | batch 200 | Training loss : 1.0611162185668945 
+ Epoch 90 | batch 400 | Training loss : 0.9519996643066406 
+ Epoch 90 | batch 600 | Training loss : 0.9018619060516357 
+
+=====================
+ Validation error for 90 epoch: 1.20219886302948
+*** Save BEST model ***
+ Best model is at epoch 90 with error: 1.20219886302948
+=====================
+ Epoch 91 | batch 0 | Training loss : 0.9745479226112366 
+ Epoch 91 | batch 200 | Training loss : 0.937808632850647 
+ Epoch 91 | batch 400 | Training loss : 1.0314018726348877 
+ Epoch 91 | batch 600 | Training loss : 1.019378423690796 
+
+=====================
+ Validation error for 91 epoch: 1.2257821559906006 Best model is at epoch 90 with error: 1.20219886302948
+=====================
+ Epoch 92 | batch 0 | Training loss : 0.8313246369361877 
+ Epoch 92 | batch 200 | Training loss : 0.9061252474784851 
+ Epoch 92 | batch 400 | Training loss : 1.0201712846755981 
+ Epoch 92 | batch 600 | Training loss : 0.9524497389793396 
+
+=====================
+ Validation error for 92 epoch: 1.1785095930099487
+*** Save BEST model ***
+ Best model is at epoch 92 with error: 1.1785095930099487
+=====================
+ Epoch 93 | batch 0 | Training loss : 0.9966886639595032 
+ Epoch 93 | batch 200 | Training loss : 1.0315219163894653 
+ Epoch 93 | batch 400 | Training loss : 0.9916896224021912 
+ Epoch 93 | batch 600 | Training loss : 1.0097122192382812 
+
+=====================
+ Validation error for 93 epoch: 1.1482365131378174
+*** Save BEST model ***
+ Best model is at epoch 93 with error: 1.1482365131378174
+=====================
+ Epoch 94 | batch 0 | Training loss : 0.7991073131561279 
+ Epoch 94 | batch 200 | Training loss : 0.8902025818824768 
+ Epoch 94 | batch 400 | Training loss : 0.9649798274040222 
+ Epoch 94 | batch 600 | Training loss : 0.8347710371017456 
+
+=====================
+ Validation error for 94 epoch: 1.1404900550842285
+*** Save BEST model ***
+ Best model is at epoch 94 with error: 1.1404900550842285
+=====================
+ Epoch 95 | batch 0 | Training loss : 0.8327023386955261 
+ Epoch 95 | batch 200 | Training loss : 0.9391608238220215 
+ Epoch 95 | batch 400 | Training loss : 0.7362002730369568 
+ Epoch 95 | batch 600 | Training loss : 0.8389466404914856 
+
+=====================
+ Validation error for 95 epoch: 1.1321890354156494
+*** Save BEST model ***
+ Best model is at epoch 95 with error: 1.1321890354156494
+=====================
+ Epoch 96 | batch 0 | Training loss : 0.7642155289649963 
+ Epoch 96 | batch 200 | Training loss : 0.9585757255554199 
+ Epoch 96 | batch 400 | Training loss : 0.8849177360534668 
+ Epoch 96 | batch 600 | Training loss : 0.7614675164222717 
+
+=====================
+ Validation error for 96 epoch: 1.0971488952636719
+*** Save BEST model ***
+ Best model is at epoch 96 with error: 1.0971488952636719
+=====================
+ Epoch 97 | batch 0 | Training loss : 0.9493081569671631 
+ Epoch 97 | batch 200 | Training loss : 0.855572521686554 
+ Epoch 97 | batch 400 | Training loss : 0.8002913594245911 
+ Epoch 97 | batch 600 | Training loss : 0.698636531829834 
+
+=====================
+ Validation error for 97 epoch: 1.0952092409133911
+*** Save BEST model ***
+ Best model is at epoch 97 with error: 1.0952092409133911
+=====================
+ Epoch 98 | batch 0 | Training loss : 0.9445614814758301 
+ Epoch 98 | batch 200 | Training loss : 0.7976353764533997 
+ Epoch 98 | batch 400 | Training loss : 0.8256285190582275 
+ Epoch 98 | batch 600 | Training loss : 0.8376161456108093 
+
+=====================
+ Validation error for 98 epoch: 1.066777229309082
+*** Save BEST model ***
+ Best model is at epoch 98 with error: 1.066777229309082
+=====================
+ Epoch 99 | batch 0 | Training loss : 0.8170337080955505 
+ Epoch 99 | batch 200 | Training loss : 0.829005241394043 
+ Epoch 99 | batch 400 | Training loss : 0.7494577765464783 
+ Epoch 99 | batch 600 | Training loss : 0.7575743794441223 
+
+=====================
+ Validation error for 99 epoch: 1.0801068544387817 Best model is at epoch 98 with error: 1.066777229309082
+=====================
+ Epoch 100 | batch 0 | Training loss : 0.7275964021682739 
+ Epoch 100 | batch 200 | Training loss : 0.8003745675086975 
+ Epoch 100 | batch 400 | Training loss : 0.7108262181282043 
+ Epoch 100 | batch 600 | Training loss : 0.7464145421981812 
+
+=====================
+ Validation error for 100 epoch: 1.0290110111236572
+*** Save BEST model ***
+ Best model is at epoch 100 with error: 1.0290110111236572
+=====================
+ Epoch 101 | batch 0 | Training loss : 0.6381378769874573 
+ Epoch 101 | batch 200 | Training loss : 0.7272754311561584 
+ Epoch 101 | batch 400 | Training loss : 0.8289911150932312 
+ Epoch 101 | batch 600 | Training loss : 0.7288178205490112 
+
+=====================
+ Validation error for 101 epoch: 1.0440971851348877 Best model is at epoch 100 with error: 1.0290110111236572
+=====================
+ Epoch 102 | batch 0 | Training loss : 0.733642041683197 
+ Epoch 102 | batch 200 | Training loss : 0.7206785678863525 
+ Epoch 102 | batch 400 | Training loss : 0.8125762343406677 
+ Epoch 102 | batch 600 | Training loss : 0.6365424990653992 
+
+=====================
+ Validation error for 102 epoch: 1.014169454574585
+*** Save BEST model ***
+ Best model is at epoch 102 with error: 1.014169454574585
+=====================
+ Epoch 103 | batch 0 | Training loss : 0.8027702569961548 
+ Epoch 103 | batch 200 | Training loss : 0.7900662422180176 
+ Epoch 103 | batch 400 | Training loss : 0.6558591723442078 
+ Epoch 103 | batch 600 | Training loss : 0.7035354375839233 
+
+=====================
+ Validation error for 103 epoch: 0.9958372712135315
+*** Save BEST model ***
+ Best model is at epoch 103 with error: 0.9958372712135315
+=====================
+ Epoch 104 | batch 0 | Training loss : 0.7046797275543213 
+ Epoch 104 | batch 200 | Training loss : 0.7377996444702148 
+ Epoch 104 | batch 400 | Training loss : 0.647517740726471 
+ Epoch 104 | batch 600 | Training loss : 0.6765040159225464 
+
+=====================
+ Validation error for 104 epoch: 1.002384066581726 Best model is at epoch 103 with error: 0.9958372712135315
+=====================
+ Epoch 105 | batch 0 | Training loss : 0.6741830706596375 
+ Epoch 105 | batch 200 | Training loss : 0.7091491222381592 
+ Epoch 105 | batch 400 | Training loss : 0.7201074361801147 
+ Epoch 105 | batch 600 | Training loss : 0.5926685333251953 
+
+=====================
+ Validation error for 105 epoch: 0.948477566242218
+*** Save BEST model ***
+ Best model is at epoch 105 with error: 0.948477566242218
+=====================
+ Epoch 106 | batch 0 | Training loss : 0.7507433891296387 
+ Epoch 106 | batch 200 | Training loss : 0.8169320225715637 
+ Epoch 106 | batch 400 | Training loss : 0.6355513334274292 
+ Epoch 106 | batch 600 | Training loss : 0.702461838722229 
+
+=====================
+ Validation error for 106 epoch: 0.943566620349884
+*** Save BEST model ***
+ Best model is at epoch 106 with error: 0.943566620349884
+=====================
+ Epoch 107 | batch 0 | Training loss : 0.6251238584518433 
+ Epoch 107 | batch 200 | Training loss : 0.7473220229148865 
+ Epoch 107 | batch 400 | Training loss : 0.6516111493110657 
+ Epoch 107 | batch 600 | Training loss : 0.7203395962715149 
+
+=====================
+ Validation error for 107 epoch: 0.9086264967918396
+*** Save BEST model ***
+ Best model is at epoch 107 with error: 0.9086264967918396
+=====================
+ Epoch 108 | batch 0 | Training loss : 0.682070255279541 
+ Epoch 108 | batch 200 | Training loss : 0.5785713195800781 
+ Epoch 108 | batch 400 | Training loss : 0.630608081817627 
+ Epoch 108 | batch 600 | Training loss : 0.4500889480113983 
+
+=====================
+ Validation error for 108 epoch: 0.9135689735412598 Best model is at epoch 107 with error: 0.9086264967918396
+=====================
+ Epoch 109 | batch 0 | Training loss : 0.6064616441726685 
+ Epoch 109 | batch 200 | Training loss : 0.5851135849952698 
+ Epoch 109 | batch 400 | Training loss : 0.5512510538101196 
+ Epoch 109 | batch 600 | Training loss : 0.6487249732017517 
+
+=====================
+ Validation error for 109 epoch: 0.9026544690132141
+*** Save BEST model ***
+ Best model is at epoch 109 with error: 0.9026544690132141
+=====================
+ Epoch 110 | batch 0 | Training loss : 0.6034848690032959 
+ Epoch 110 | batch 200 | Training loss : 0.7461605668067932 
+ Epoch 110 | batch 400 | Training loss : 0.5818944573402405 
+ Epoch 110 | batch 600 | Training loss : 0.5790898203849792 
+
+=====================
+ Validation error for 110 epoch: 0.9065619111061096 Best model is at epoch 109 with error: 0.9026544690132141
+=====================
+ Epoch 111 | batch 0 | Training loss : 0.6269493699073792 
+ Epoch 111 | batch 200 | Training loss : 0.5319586396217346 
+ Epoch 111 | batch 400 | Training loss : 0.5960404872894287 
+ Epoch 111 | batch 600 | Training loss : 0.5583972334861755 
+
+=====================
+ Validation error for 111 epoch: 0.9036192297935486 Best model is at epoch 109 with error: 0.9026544690132141
+=====================
+ Epoch 112 | batch 0 | Training loss : 0.48805129528045654 
+ Epoch 112 | batch 200 | Training loss : 0.4740658104419708 
+ Epoch 112 | batch 400 | Training loss : 0.6068240404129028 
+ Epoch 112 | batch 600 | Training loss : 0.4835740327835083 
+
+=====================
+ Validation error for 112 epoch: 0.9167909026145935 Best model is at epoch 109 with error: 0.9026544690132141
+=====================
+ Epoch 113 | batch 0 | Training loss : 0.4863666594028473 
+ Epoch 113 | batch 200 | Training loss : 0.5277493000030518 
+ Epoch 113 | batch 400 | Training loss : 0.5219288468360901 
+ Epoch 113 | batch 600 | Training loss : 0.466044157743454 
+
+=====================
+ Validation error for 113 epoch: 0.8650115728378296
+*** Save BEST model ***
+ Best model is at epoch 113 with error: 0.8650115728378296
+=====================
+ Epoch 114 | batch 0 | Training loss : 0.6016325354576111 
+ Epoch 114 | batch 200 | Training loss : 0.46050697565078735 
+ Epoch 114 | batch 400 | Training loss : 0.6485353112220764 
+ Epoch 114 | batch 600 | Training loss : 0.497221976518631 
+
+=====================
+ Validation error for 114 epoch: 0.8509458899497986
+*** Save BEST model ***
+ Best model is at epoch 114 with error: 0.8509458899497986
+=====================
+ Epoch 115 | batch 0 | Training loss : 0.5546859502792358 
+ Epoch 115 | batch 200 | Training loss : 0.5110293626785278 
+ Epoch 115 | batch 400 | Training loss : 0.4884014129638672 
+ Epoch 115 | batch 600 | Training loss : 0.514558732509613 
+
+=====================
+ Validation error for 115 epoch: 0.8592311143875122 Best model is at epoch 114 with error: 0.8509458899497986
+=====================
+ Epoch 116 | batch 0 | Training loss : 0.5898809432983398 
+ Epoch 116 | batch 200 | Training loss : 0.5284851789474487 
+ Epoch 116 | batch 400 | Training loss : 0.5426725149154663 
+ Epoch 116 | batch 600 | Training loss : 0.515293300151825 
+
+=====================
+ Validation error for 116 epoch: 0.8400437831878662
+*** Save BEST model ***
+ Best model is at epoch 116 with error: 0.8400437831878662
+=====================
+ Epoch 117 | batch 0 | Training loss : 0.48895442485809326 
+ Epoch 117 | batch 200 | Training loss : 0.46623075008392334 
+ Epoch 117 | batch 400 | Training loss : 0.47616586089134216 
+ Epoch 117 | batch 600 | Training loss : 0.43930771946907043 
+
+=====================
+ Validation error for 117 epoch: 0.7959022521972656
+*** Save BEST model ***
+ Best model is at epoch 117 with error: 0.7959022521972656
+=====================
+ Epoch 118 | batch 0 | Training loss : 0.48101139068603516 
+ Epoch 118 | batch 200 | Training loss : 0.4596533179283142 
+ Epoch 118 | batch 400 | Training loss : 0.4924953281879425 
+ Epoch 118 | batch 600 | Training loss : 0.45934778451919556 
+
+=====================
+ Validation error for 118 epoch: 0.8241581320762634 Best model is at epoch 117 with error: 0.7959022521972656
+=====================
+ Epoch 119 | batch 0 | Training loss : 0.5898239016532898 
+ Epoch 119 | batch 200 | Training loss : 0.4738595187664032 
+ Epoch 119 | batch 400 | Training loss : 0.4653280973434448 
+ Epoch 119 | batch 600 | Training loss : 0.5671870112419128 
+
+=====================
+ Validation error for 119 epoch: 0.7987570762634277 Best model is at epoch 117 with error: 0.7959022521972656
+=====================
+ Epoch 120 | batch 0 | Training loss : 0.4785533547401428 
+ Epoch 120 | batch 200 | Training loss : 0.4352036416530609 
+ Epoch 120 | batch 400 | Training loss : 0.49583303928375244 
+ Epoch 120 | batch 600 | Training loss : 0.4250924587249756 
+
+=====================
+ Validation error for 120 epoch: 0.7926559448242188
+*** Save BEST model ***
+ Best model is at epoch 120 with error: 0.7926559448242188
+=====================
+ Epoch 121 | batch 0 | Training loss : 0.507672131061554 
+ Epoch 121 | batch 200 | Training loss : 0.4241725504398346 
+ Epoch 121 | batch 400 | Training loss : 0.4712274968624115 
+ Epoch 121 | batch 600 | Training loss : 0.4204086363315582 
+
+=====================
+ Validation error for 121 epoch: 0.7671079039573669
+*** Save BEST model ***
+ Best model is at epoch 121 with error: 0.7671079039573669
+=====================
+ Epoch 122 | batch 0 | Training loss : 0.3737032413482666 
+ Epoch 122 | batch 200 | Training loss : 0.4595393240451813 
+ Epoch 122 | batch 400 | Training loss : 0.624618411064148 
+ Epoch 122 | batch 600 | Training loss : 0.5475545525550842 
+
+=====================
+ Validation error for 122 epoch: 0.8008303642272949 Best model is at epoch 121 with error: 0.7671079039573669
+=====================
+ Epoch 123 | batch 0 | Training loss : 0.4492496848106384 
+ Epoch 123 | batch 200 | Training loss : 0.4064481854438782 
+ Epoch 123 | batch 400 | Training loss : 0.47525057196617126 
+ Epoch 123 | batch 600 | Training loss : 0.44549599289894104 
+
+=====================
+ Validation error for 123 epoch: 0.75700443983078
+*** Save BEST model ***
+ Best model is at epoch 123 with error: 0.75700443983078
+=====================
+ Epoch 124 | batch 0 | Training loss : 0.3418753147125244 
+ Epoch 124 | batch 200 | Training loss : 0.41241368651390076 
+ Epoch 124 | batch 400 | Training loss : 0.48091164231300354 
+ Epoch 124 | batch 600 | Training loss : 0.49077677726745605 
+
+=====================
+ Validation error for 124 epoch: 0.7666023969650269 Best model is at epoch 123 with error: 0.75700443983078
+=====================
+ Epoch 125 | batch 0 | Training loss : 0.42552268505096436 
+ Epoch 125 | batch 200 | Training loss : 0.34139174222946167 
+ Epoch 125 | batch 400 | Training loss : 0.41571128368377686 
+ Epoch 125 | batch 600 | Training loss : 0.4416762888431549 
+
+=====================
+ Validation error for 125 epoch: 0.7267417907714844
+*** Save BEST model ***
+ Best model is at epoch 125 with error: 0.7267417907714844
+=====================
+ Epoch 126 | batch 0 | Training loss : 0.46955960988998413 
+ Epoch 126 | batch 200 | Training loss : 0.5246249437332153 
+ Epoch 126 | batch 400 | Training loss : 0.4004371464252472 
+ Epoch 126 | batch 600 | Training loss : 0.34489741921424866 
+
+=====================
+ Validation error for 126 epoch: 0.7245590090751648
+*** Save BEST model ***
+ Best model is at epoch 126 with error: 0.7245590090751648
+=====================
+ Epoch 127 | batch 0 | Training loss : 0.3627242147922516 
+ Epoch 127 | batch 200 | Training loss : 0.3731656074523926 
+ Epoch 127 | batch 400 | Training loss : 0.4285278916358948 
+ Epoch 127 | batch 600 | Training loss : 0.3278496265411377 
+
+=====================
+ Validation error for 127 epoch: 0.680255651473999
+*** Save BEST model ***
+ Best model is at epoch 127 with error: 0.680255651473999
+=====================
+ Epoch 128 | batch 0 | Training loss : 0.34099912643432617 
+ Epoch 128 | batch 200 | Training loss : 0.37034371495246887 
+ Epoch 128 | batch 400 | Training loss : 0.3860844373703003 
+ Epoch 128 | batch 600 | Training loss : 0.3983948826789856 
+
+=====================
+ Validation error for 128 epoch: 0.7332618832588196 Best model is at epoch 127 with error: 0.680255651473999
+=====================
+ Epoch 129 | batch 0 | Training loss : 0.40282171964645386 
+ Epoch 129 | batch 200 | Training loss : 0.38576796650886536 
+ Epoch 129 | batch 400 | Training loss : 0.28730809688568115 
+ Epoch 129 | batch 600 | Training loss : 0.4898361563682556 
+
+=====================
+ Validation error for 129 epoch: 0.7117128968238831 Best model is at epoch 127 with error: 0.680255651473999
+=====================
+ Epoch 130 | batch 0 | Training loss : 0.36137664318084717 
+ Epoch 130 | batch 200 | Training loss : 0.3346976637840271 
+ Epoch 130 | batch 400 | Training loss : 0.3322775065898895 
+ Epoch 130 | batch 600 | Training loss : 0.28743916749954224 
+
+=====================
+ Validation error for 130 epoch: 0.7242906093597412 Best model is at epoch 127 with error: 0.680255651473999
+=====================
+ Epoch 131 | batch 0 | Training loss : 0.3653929829597473 
+ Epoch 131 | batch 200 | Training loss : 0.38214311003685 
+ Epoch 131 | batch 400 | Training loss : 0.31632786989212036 
+ Epoch 131 | batch 600 | Training loss : 0.29256609082221985 
+
+=====================
+ Validation error for 131 epoch: 0.7069371342658997 Best model is at epoch 127 with error: 0.680255651473999
+=====================
+ Epoch 132 | batch 0 | Training loss : 0.44282495975494385 
+ Epoch 132 | batch 200 | Training loss : 0.2970080077648163 
+ Epoch 132 | batch 400 | Training loss : 0.33845776319503784 
+ Epoch 132 | batch 600 | Training loss : 0.33850178122520447 
+
+=====================
+ Validation error for 132 epoch: 0.6328151822090149
+*** Save BEST model ***
+ Best model is at epoch 132 with error: 0.6328151822090149
+=====================
+ Epoch 133 | batch 0 | Training loss : 0.3302024304866791 
+ Epoch 133 | batch 200 | Training loss : 0.38318338990211487 
+ Epoch 133 | batch 400 | Training loss : 0.32025039196014404 
+ Epoch 133 | batch 600 | Training loss : 0.4048546254634857 
+
+=====================
+ Validation error for 133 epoch: 0.6544329524040222 Best model is at epoch 132 with error: 0.6328151822090149
+=====================
+ Epoch 134 | batch 0 | Training loss : 0.2993243336677551 
+ Epoch 134 | batch 200 | Training loss : 0.28471195697784424 
+ Epoch 134 | batch 400 | Training loss : 0.32324278354644775 
+ Epoch 134 | batch 600 | Training loss : 0.28838688135147095 
+
+=====================
+ Validation error for 134 epoch: 0.6419697403907776 Best model is at epoch 132 with error: 0.6328151822090149
+=====================
+ Epoch 135 | batch 0 | Training loss : 0.2979213297367096 
+ Epoch 135 | batch 200 | Training loss : 0.4063887894153595 
+ Epoch 135 | batch 400 | Training loss : 0.25613513588905334 
+ Epoch 135 | batch 600 | Training loss : 0.33567219972610474 
+
+=====================
+ Validation error for 135 epoch: 0.6839198470115662 Best model is at epoch 132 with error: 0.6328151822090149
+=====================
+ Epoch 136 | batch 0 | Training loss : 0.3539486527442932 
+ Epoch 136 | batch 200 | Training loss : 0.35517290234565735 
+ Epoch 136 | batch 400 | Training loss : 0.27975645661354065 
+ Epoch 136 | batch 600 | Training loss : 0.31584206223487854 
+
+=====================
+ Validation error for 136 epoch: 0.6625789403915405 Best model is at epoch 132 with error: 0.6328151822090149
+=====================
+ Epoch 137 | batch 0 | Training loss : 0.31073197722435 
+ Epoch 137 | batch 200 | Training loss : 0.34849658608436584 
+ Epoch 137 | batch 400 | Training loss : 0.2730351984500885 
+ Epoch 137 | batch 600 | Training loss : 0.2743300497531891 
+
+=====================
+ Validation error for 137 epoch: 0.6632406115531921 Best model is at epoch 132 with error: 0.6328151822090149
+=====================
+ Epoch 138 | batch 0 | Training loss : 0.2713484466075897 
+ Epoch 138 | batch 200 | Training loss : 0.2708195745944977 
+ Epoch 138 | batch 400 | Training loss : 0.2620532214641571 
+ Epoch 138 | batch 600 | Training loss : 0.3152421712875366 
+
+=====================
+ Validation error for 138 epoch: 0.6676610708236694 Best model is at epoch 132 with error: 0.6328151822090149
+=====================
+ Epoch 139 | batch 0 | Training loss : 0.2613997161388397 
+ Epoch 139 | batch 200 | Training loss : 0.2988153100013733 
+ Epoch 139 | batch 400 | Training loss : 0.2762267589569092 
+ Epoch 139 | batch 600 | Training loss : 0.2794235050678253 
+
+=====================
+ Validation error for 139 epoch: 0.633317232131958 Best model is at epoch 132 with error: 0.6328151822090149
+=====================
+ Epoch 140 | batch 0 | Training loss : 0.2690235376358032 
+ Epoch 140 | batch 200 | Training loss : 0.29941943287849426 
+ Epoch 140 | batch 400 | Training loss : 0.226383775472641 
+ Epoch 140 | batch 600 | Training loss : 0.26889315247535706 
+
+=====================
+ Validation error for 140 epoch: 0.6702026724815369 Best model is at epoch 132 with error: 0.6328151822090149
+=====================
+ Epoch 141 | batch 0 | Training loss : 0.24223098158836365 
+ Epoch 141 | batch 200 | Training loss : 0.21486499905586243 
+ Epoch 141 | batch 400 | Training loss : 0.30426594614982605 
+ Epoch 141 | batch 600 | Training loss : 0.27520474791526794 
+
+=====================
+ Validation error for 141 epoch: 0.6302801966667175
+*** Save BEST model ***
+ Best model is at epoch 141 with error: 0.6302801966667175
+=====================
+ Epoch 142 | batch 0 | Training loss : 0.2868293523788452 
+ Epoch 142 | batch 200 | Training loss : 0.25780045986175537 
+ Epoch 142 | batch 400 | Training loss : 0.2911636531352997 
+ Epoch 142 | batch 600 | Training loss : 0.2796957492828369 
+
+=====================
+ Validation error for 142 epoch: 0.6173295974731445
+*** Save BEST model ***
+ Best model is at epoch 142 with error: 0.6173295974731445
+=====================
+ Epoch 143 | batch 0 | Training loss : 0.21553607285022736 
+ Epoch 143 | batch 200 | Training loss : 0.2649252712726593 
+ Epoch 143 | batch 400 | Training loss : 0.23589272797107697 
+ Epoch 143 | batch 600 | Training loss : 0.26944729685783386 
+
+=====================
+ Validation error for 143 epoch: 0.6018089056015015
+*** Save BEST model ***
+ Best model is at epoch 143 with error: 0.6018089056015015
+=====================
+ Epoch 144 | batch 0 | Training loss : 0.2915520966053009 
+ Epoch 144 | batch 200 | Training loss : 0.27812817692756653 
+ Epoch 144 | batch 400 | Training loss : 0.22123226523399353 
+ Epoch 144 | batch 600 | Training loss : 0.25521257519721985 
+
+=====================
+ Validation error for 144 epoch: 0.5925254821777344
+*** Save BEST model ***
+ Best model is at epoch 144 with error: 0.5925254821777344
+=====================
+ Epoch 145 | batch 0 | Training loss : 0.2487684041261673 
+ Epoch 145 | batch 200 | Training loss : 0.2186114341020584 
+ Epoch 145 | batch 400 | Training loss : 0.26711505651474 
+ Epoch 145 | batch 600 | Training loss : 0.2432788461446762 
+
+=====================
+ Validation error for 145 epoch: 0.6277069449424744 Best model is at epoch 144 with error: 0.5925254821777344
+=====================
+ Epoch 146 | batch 0 | Training loss : 0.1892174929380417 
+ Epoch 146 | batch 200 | Training loss : 0.23165512084960938 
+ Epoch 146 | batch 400 | Training loss : 0.21897512674331665 
+ Epoch 146 | batch 600 | Training loss : 0.2782802879810333 
+
+=====================
+ Validation error for 146 epoch: 0.6432467699050903 Best model is at epoch 144 with error: 0.5925254821777344
+=====================
+ Epoch 147 | batch 0 | Training loss : 0.23049801588058472 
+ Epoch 147 | batch 200 | Training loss : 0.25750061869621277 
+ Epoch 147 | batch 400 | Training loss : 0.23631888628005981 
+ Epoch 147 | batch 600 | Training loss : 0.2805723547935486 
+
+=====================
+ Validation error for 147 epoch: 0.6099417209625244 Best model is at epoch 144 with error: 0.5925254821777344
+=====================
+ Epoch 148 | batch 0 | Training loss : 0.20021018385887146 
+ Epoch 148 | batch 200 | Training loss : 0.27249670028686523 
+ Epoch 148 | batch 400 | Training loss : 0.17958398163318634 
+ Epoch 148 | batch 600 | Training loss : 0.2148662507534027 
+
+=====================
+ Validation error for 148 epoch: 0.5979489088058472 Best model is at epoch 144 with error: 0.5925254821777344
+=====================
+ Epoch 149 | batch 0 | Training loss : 0.22106024622917175 
+ Epoch 149 | batch 200 | Training loss : 0.2329999804496765 
+ Epoch 149 | batch 400 | Training loss : 0.22900310158729553 
+ Epoch 149 | batch 600 | Training loss : 0.19251027703285217 
+
+=====================
+ Validation error for 149 epoch: 0.6178660988807678 Best model is at epoch 144 with error: 0.5925254821777344
+=====================
