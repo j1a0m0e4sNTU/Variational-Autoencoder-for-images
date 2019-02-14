@@ -111,7 +111,7 @@ class Manaeger():
         self.model.eval()
         for i, imgs in enumerate(self.valid_loader):
             imgs = imgs.to(self.device)
-            out = self.model(imgs)
+            out, _, _ = self.model(imgs)
             self.save_predictoin_for_batch(out, i)
             if i == 0: break
 
