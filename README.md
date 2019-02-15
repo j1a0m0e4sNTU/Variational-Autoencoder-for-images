@@ -14,7 +14,8 @@ VAE implemented with PyTorch
 ## Dataset
  
  * [Download link](https://drive.google.com/file/d/1nByd2L5KokSI3BLO6y7BmeS3B6wJeFrF/view?usp=sharing)
- *train/* folder is used for training, **test/** is used for validation/testing
+
+ **train/** folder is used for training, **test/** is used for validation/testing
  all images are humen faces, in size of 64 * 64
  > Edit the path to the dataset in main.py
 
@@ -26,11 +27,23 @@ VAE implemented with PyTorch
   
   ![](images/05.png)
 
-
 ## Reparameterization Trick
 
-## Usage 
+  ![](images/06.png)
 
 ## Result
+
+  All the result can be found under **prediction/** folder
+  The example below are results of experiment **vae_01_05**
+
+  ### Reconstruction
+    
+    face 1 | face 2 | face 3 | face 4 | face 5 | face 6 | face 7
+    -------|--------|--------|--------|--------|--------|-------
+    ![](images/40000.png) |![](images/40001.png) |![](images/40002.png) |![](images/40003.png) |![](images/40004.png) |![](images/40005.png) |![](images/40006.png) 
+    ![](images/00000.png) |![](images/00001.png) |![](images/00002.png) |![](images/00003.png) |![](images/00004.png) |![](images/00005.png) |![](images/00006.png) 
+
+
+  ### Random Sampling
 
 ## Conclusion
