@@ -72,8 +72,7 @@ class Model(nn.Module):
         return out, mu, logvar
     
     def sample(self, batch_size):
-        rands = np.random.normal(0.5, 0.1 ,(batch_size, self.latent))
-        latent = torch.tensor(rands).type(torch.float).cuda()
+        latent = torch.rand(batch_size, self.latent).type(torch.float).cuda()
         # latent = (latent) * 2 
         out = self.fc_mu(latent)
         out = out.view(batch_size, self.latent, 1, 1)
