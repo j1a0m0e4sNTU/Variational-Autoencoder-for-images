@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-import numpy as np
 
 def Conv2d(in_planes, out_planes, kernel_size = 3):
     layer = nn.Sequential(
@@ -73,12 +72,10 @@ class Model(nn.Module):
         return out, mu, logvar
     
     def sample(self, batch_size):
-        rands = np.random.normal(0 , 0.5,(batch_size,self.latent))
-        latent = torch.tensor(rands).type(torch.float).cuda()
-        # latent = (latent) * 2 
-        # out = self.fc_mu(latent)
-        out = latent.view(batch_size, self.latent, 1, 1)
-        # out = out.view(batch_size, self.latent, 1, 1)
+        latent = torch.rand(batch_size, self.latent).type(torch.float).cuda()
+        # latent = (latent) * 2
+        out = self.fc_mu(latent)
+        out = out.view(batch_size, self.latent, 1, 1)
         out = self.decoder(out)
         return out
         
