@@ -54,3 +54,7 @@ face 1 | face 2 | face 3 | face 4 | face 5 | face 6
 The images are sampled in the latent vector, however, the results are quite terrifying
 
 ## Conclusion
+
+* Sigma KL size is a trade-off between "Reconstruction quality" and "Random sampling quality"
+* The differnt ways ro reparameterize could cause interesting result (look results for vae_01 & vae_02 )
+* The distribution of the latent vector is very important for sampling quality 
