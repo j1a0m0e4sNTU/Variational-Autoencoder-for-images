@@ -43,8 +43,14 @@ face 1 | face 2 | face 3 | face 4 | face 5 | face 6 | face 7
 ![](images/40000.png) | ![](images/40001.png) | ![](images/40002.png) | ![](images/40003.png) | ![](images/40004.png) | ![](images/40005.png) | ![](images/40006.png) 
 ![](images/00000.png) | ![](images/00001.png) | ![](images/00002.png) | ![](images/00003.png) | ![](images/00004.png) | ![](images/00005.png) | ![](images/00006.png) 
 
-
+Fist row is original image from testing data, the second row is corresponding reconstruction images.
 
   ### Random Sampling
+
+face 1 | face 2 | face 3 | face 4 | face 5 | face 6 
+------ | ------ | ------ | ------ | ------ | ------ 
+![](images/sample_00000.png) | ![](images/sample_00001.png) | ![](images/sample_00002.png) | ![](images/sample_00003.png) | ![](images/sample_00004.png) | ![](images/sample_00005.png) 
+
+The images are sampled in the latent vector, however, the results are quite terrifying
 
 ## Conclusion
