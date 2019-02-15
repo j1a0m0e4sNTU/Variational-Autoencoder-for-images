@@ -58,3 +58,8 @@ The images are sampled in the latent vector, however, the results are quite terr
 * Sigma KL size is a trade-off between "Reconstruction quality" and "Random sampling quality"
 * The differnt ways ro reparameterize could cause interesting result (look results for vae_01 & vae_02 )
 * The distribution of the latent vector is very important for sampling quality 
+
+## Useful References
+
+* [Intuitively Understanding Variational Autoencoders](https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf)
+* [good repo](https://github.com/yzwxx/vae-celebA)
