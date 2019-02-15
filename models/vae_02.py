@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import numpy as np
 
 def Conv2d(in_planes, out_planes, kernel_size = 3):
     layer = nn.Sequential(
