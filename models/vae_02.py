@@ -73,8 +73,8 @@ class Model(nn.Module):
     
     def sample(self, batch_size):
         latent = torch.rand(batch_size, self.latent).type(torch.float).cuda()
-        out = self.fc_mu(latent)
-        out = out.view(batch_size, self.latent, 1, 1)
+        # out = self.fc_mu(latent)
+        out = latent.view(batch_size, self.latent, 1, 1)
         out = self.decoder(out)
         return out
         
