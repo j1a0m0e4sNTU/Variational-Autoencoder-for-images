@@ -17,3 +17,5 @@
 # python3 main.py predict vae_01 -load ../weights/vae_01_05.pkl -predict_dir prediction/vae_01_05/
 # python3 main.py train vae_02 -epoch_num 400 -save vae_02_03.pkl -log vae_02_03.txt -sigma 0.0001
 # python3 main.py predict vae_02 -load ../weights/vae_02_03.pkl -predict_dir prediction/vae_02_03/
+python3 main.py train vae_03 -epoch_num 400 -save vae_03_01.pkl -log vae_03_01.txt -sigma 0.0001
+python3 main.py predict vae_03 -load ../weights/vae_03_01.pkl -predict_dir prediction/vae_03_01/
