@@ -81,8 +81,9 @@ class Model(nn.Module):
         latent = torch.zeros(batch_size, self.latent)
         for i in range(batch_size):
             latent[i] = self.normal_sampler.sample()
+        latent = latent.to(self.device)
         out = self.relu(self.fc_out(latent))
-        out = out.view(batch_size, self.latent, 1, 1).to(self.device)
+        out = out.view(batch_size, self.latent, 1, 1)
         out = self.decoder(out)
         return out
         
