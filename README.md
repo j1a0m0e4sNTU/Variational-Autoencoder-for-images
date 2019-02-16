@@ -62,4 +62,5 @@ The images are sampled in the latent vector, however, the results are quite terr
 ## Useful References
 
 * [Intuitively Understanding Variational Autoencoders](https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf)
+* [Variational Autoencoders](https://www.jeremyjordan.me/variational-autoencoders/)
 * [good repo](https://github.com/yzwxx/vae-celebA)
