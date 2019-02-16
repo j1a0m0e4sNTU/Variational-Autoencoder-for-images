@@ -34,7 +34,7 @@ VAE implemented with PyTorch
 ## Result
 
   All the result can be found under **prediction/** folder
-  The example below are results of experiment **vae_01_05**
+  The example below are results of experiment **vae_04_01**
 
   ### Reconstruction
 
