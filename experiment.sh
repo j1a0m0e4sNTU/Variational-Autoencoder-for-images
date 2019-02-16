@@ -21,5 +21,5 @@
 # python3 main.py predict vae_03 -load ../weights/vae_03_01.pkl -predict_dir prediction/vae_03_01/
 # python3 main.py train vae_03 -epoch_num 200 -save vae_03_02.pkl -log vae_03_02.txt -sigma 0.01
 # python3 main.py predict vae_03 -load ../weights/vae_03_02.pkl -predict_dir prediction/vae_03_02/
-python3 main.py train vae_04 -epoch_num 200 -save vae_04_01.pkl -log vae_04_01.txt -sigma 0.001
+# python3 main.py train vae_04 -epoch_num 200 -save vae_04_01.pkl -log vae_04_01.txt -sigma 0.001
 python3 main.py predict vae_04 -load ../weights/vae_04_01.pkl -predict_dir prediction/vae_04_01/
