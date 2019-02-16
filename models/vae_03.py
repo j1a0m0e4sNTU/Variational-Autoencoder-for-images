@@ -74,8 +74,10 @@ class Model(nn.Module):
         return out, mu, logvar
     
     def sample(self, batch_size):
-        latent = self.normal_sampler.sample([batch_size]).to(self.device)
-        latent = latent.view(batch_size, self.latent, 1, 1)
+        latent = torch.zeros(batch_size, self.latent)
+        for i in range(batch_size):
+            latent[i] = self.normal_sampler.sample()
+        latent = latent.view(batch_size, self.latent, 1, 1).to(self.device)
         out = self.decoder(latent)
         return out
         
