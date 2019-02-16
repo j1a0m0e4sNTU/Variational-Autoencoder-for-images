@@ -51,7 +51,7 @@ class Model(nn.Module):
         )
 
     def name(self):
-        return 'VAE_03 -- use normal distribution'
+        return 'VAE_04 -- add one latent fc'
     
     def train(self):
         self.training = True
